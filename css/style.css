@@ -1,0 +1,44 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+.container{
+	width:75%;
+	margin:auto;
+	
+}
+.parent-container{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.child{
+	width:50%;
+}
+.image-sec img{
+	width: 100%;
+    padding: 150px 0;
+}
+.icon{
+	padding:15px;
+	position: relative;
+    bottom: 15px;
+	font-size: 25px;
+	color:orange;
+}
+.icon1{
+	display:flex;
+	padding: 10px;
+}
+.fsize span{
+	font-size:15px;
+	font-weight:600;
+	
+}
+.fsize p{
+	font-size:13px;
+	color:GrayText;
+	padding-top: 15px;
+}
+	
